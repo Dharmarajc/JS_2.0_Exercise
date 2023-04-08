@@ -1,0 +1,18 @@
+
+.target1 {
+    background-color: rgb(42, 165, 159);
+    margin-right: 10px;
+
+}
+
+.target2::after {
+    content: "dsvsdjfv";
+    background-color: rgb(236, 4, 4);
+    /* display:inline-block; */
+}
+
+
+h1::first-line {
+    color:blueviolet;
+    text-transform:uppercase;
+}
